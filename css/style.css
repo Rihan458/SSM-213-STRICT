@@ -75,7 +75,6 @@
 section {
     float: left;
     width: 100%;
-    padding: 25px;
 }
  /*Global CSS End/
 
@@ -84,7 +83,8 @@ section {
 .topbar {
     background: #f6f9f9;
     height: 50px;
-    margin-top: 7px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .topbar.logo{
     padding: 20px 0;
@@ -194,7 +194,8 @@ section {
 
 /*Portfolio Section Start*/
 .portfolio{
-    padding: 85px 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .portfolio h2{
     font-size: 40px;
@@ -248,11 +249,14 @@ section {
 /*Contact Section Start*/
 
 .contact{
-    padding: 80px 0;
+    padding-top: 20px;
+    padding-bottom: 44px;
+    margin: 0;
+    bottom: 80px;
     background: linear-gradient(rgba(45, 56, 76, 0.85),rgba(45, 56, 76, 0.85)), url(../image/contact-bg.png);
     background-position: center;
     background-size: cover;
-    min-height: 530px;
+    min-height: 548px;
 }
 .contact h2{
     font-size: 40px;
