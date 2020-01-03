@@ -60,7 +60,7 @@
     float: left;
 }
  .col-12 {
-    padding: 25px;
+    padding: 35px;
     width: 100%;
     float: left;
 }
@@ -226,7 +226,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 105%;
     background: #2bacfa;
     opacity: 0;
     transition:all 0.5s ease-in-out;
@@ -287,11 +287,12 @@ form textarea {}
 .btn-submit{
     color: #fff;
     border: 1px solid #15a4fa;
-    padding: 9px 40px;
-    margin: -34px -30px;
+    padding: 15px 50px;
+    text-align: center;
+    margin-right: -28px;
     background: transparent;
     float: right;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .btn-submit:hover {
