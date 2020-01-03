@@ -287,11 +287,11 @@ form textarea {}
 .btn-submit{
     color: #fff;
     border: 1px solid #15a4fa;
-    padding: 15px 50px;
-    text-align: center;
+    padding: 9px 40px;
+    margin: -34px -30px;
     background: transparent;
     float: right;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .btn-submit:hover {
