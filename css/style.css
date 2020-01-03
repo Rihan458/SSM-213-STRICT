@@ -2,7 +2,7 @@
 /*Global CSS Start*/
 
 *{
-    margin: -8px auto;
+    margin: 0 auto;
     font-family: 'Lato', sans-serif;
 }
 
@@ -73,6 +73,7 @@
     text-align: center;
 }
 section {
+    padding:80px;
     float: left;
     width: 100%;
 }
