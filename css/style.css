@@ -2,7 +2,7 @@
 /*Global CSS Start*/
 
 *{
-    margin:0 auto;
+    margin: 0 auto;
     font-family: 'Lato', sans-serif;
 }
 
@@ -37,7 +37,7 @@
  .col-6 {
     width:50%;
     float: left;
-    margin-top: 16px;
+    margin-top: 10px;
  }
 .col-7 {
     width: 58.3%;
@@ -60,9 +60,7 @@
     float: left;
 }
  .col-12 {
-    padding: 2;
-    /* margin-bottom: 10px; */
-    margin-top: 20px;
+    padding: 0px;
     width: 100%;
     float: left;
 }
@@ -84,8 +82,9 @@ section {
 
 .topbar {
     background: #f6f9f9;
-    height: 80px;
-    /* float: left; */
+    height: 49px;
+    padding-top: 16px;
+    padding-bottom: 1px;
 }
 .topbar.logo{
     padding: 20px 0;
@@ -95,11 +94,12 @@ section {
 /*Banner Section Start*/
 .banner{
     background: url(../image/banner-bg.png);
-    height: 669px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
+    margin-top: -11px;
 }
 .banner h1 {
     margin-bottom: 20px;
@@ -287,22 +287,20 @@ form .form-control {
 form textarea {}
 .btn-submit{
     color: #fff;
+    font-size: 15px;
     border: 1px solid #15a4fa;
-    padding: 8px 40px;
-    margin-bottom: 0px;
+    padding: 10px 40px;
     text-align: center;
     background: transparent;
     float: right;
     box-sizing: border-box;
-    margin: 0 -27px;
+    margin: -29px;
 }
 
 .btn-submit:hover {
     background: #15a4fa;
     transition: all 0.5s ease-in-out;
-}
-
-input.btn-submit {display: inline-block;} 
+} 
 form .checkbox {}
 /*Contact Section End*/
 
@@ -311,7 +309,7 @@ form .checkbox {}
     float: right;
 }
 footer{
-    padding: 25px 0;
+    padding: 5px 0;
     width: 100%;
     float: left;
     background: #f6f9f9;
@@ -319,7 +317,7 @@ footer{
 
 
 footer .copy {
-    margin-top: -7px;
+    margin-top: 0px;
     color: #999999;
 }
 footer .social-icon{
@@ -334,8 +332,8 @@ footer .social-icon a{
     color: white;
     display: inline-block;
     width: 32px;
-    height: 30px;
-    margin: 0 5px;
+    height: 33px;
+    margin: -1px 6px;
     text-align: center;
     line-height: 28px;
     border-radius: 50%;
